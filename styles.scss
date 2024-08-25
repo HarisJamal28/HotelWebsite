@@ -1,0 +1,1756 @@
+body{
+    padding: 0;
+    margin: 0;
+    .new-amsterdam-regular {
+        font-family: "New Amsterdam", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      h1{
+        font-family: "New Amsterdam", sans-serif;
+      }
+}
+
+main{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.nerdwallet.com/assets/blog/wp-content/uploads/2020/10/GettyImages-104731717-2400x1440.jpg);
+    background-size: cover;
+    background-position: top;
+    scroll-snap-type: y mandatory;  
+    scroll-behavior: smooth;
+
+
+    header{
+        // border: 1px solid black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: burlywood;
+            ul{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                // border: 1px solid black;
+                li{
+                font-family: "New Amsterdam", sans-serif;
+                color: white;
+                    a{
+                        font-family: "New Amsterdam", sans-serif;
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .BannerFrame{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        scroll-snap-align: start; 
+        // border: 2px solid green;
+        .Banner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h1{
+                font-family: "New Amsterdam", sans-serif;
+                font-size: 10rem;
+                color: white;
+                margin-bottom: 0;
+            }
+            p{
+                color: white;
+                font-family: "New Amsterdam", sans-serif;
+                margin: 0;
+                margin: 5px;
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .AboutFrame{
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        // justify-content: center;
+        align-items: center;
+        background-color: #deb887;
+        scroll-snap-align: start; 
+        // border: 5px solid green;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+
+
+        .CardFrame{
+            width: 100vw;
+            height: 100%;
+            min-width: fit-content;
+            // border: 10px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+
+        .About{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            width: 80%;
+            height: 75%;
+            // min-width: fit-content;
+            // gap: 20px;
+            background-color: white;
+            // scroll-snap-align: start;
+            // border: 10px solid blue;
+
+
+        // box-shadow: 0px 0px 0px black;
+
+            aside{
+                position: relative;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h2{
+                    color: black;
+                    font-size: 3rem;
+                font-family: "New Amsterdam", sans-serif;
+                border-bottom: 10px double burlywood;
+                }
+                p{
+                color: black;
+                font-size: 1rem;
+                width: 80%;
+                }
+                img{
+                    height: 100%;
+                    width: 100%;
+                    // border-radius: 30px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+                // border: 1px solid black;
+                // border-radius: 30px;
+            }
+            h1{
+                font-family: "New Amsterdam", sans-serif;
+                font-size: 10rem;
+                color: white;
+                margin-bottom: 0;
+            }
+            p{
+                color: white;
+                font-family: "New Amsterdam", sans-serif;
+                margin: 0;
+                margin: 5px;
+                font-size: 2rem;
+            }
+
+            div{
+                position: absolute;
+                bottom: 0px;
+                right: 50px;
+                button{
+                    padding: 10px;
+                    border: 5px solid burlywood;
+                    background-color: white;
+                    color: burlywood;
+                    font-size: 1.5rem;
+                    font-family: "New Amsterdam", sans-serif;
+                    &:hover{
+                        background-color: burlywood;
+                        color: white;
+                        border: 5px solid white;
+                    }
+                }
+            }
+        }
+        }
+    }
+    .PackageFrame{
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        // justify-content: center;
+        align-items: center;
+        background-color: #deb887;
+        scroll-snap-align: start; 
+        // border: 5px solid green;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+
+
+        .CardFrame{
+            width: 100vw;
+            height: 100%;
+            min-width: fit-content;
+            // border: 10px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+
+        .Package{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            width: 80%;
+            height: 75%;
+            // min-width: fit-content;
+            // gap: 20px;
+            background-color: white;
+            // scroll-snap-align: start;
+            // border: 10px solid blue;
+
+
+        // box-shadow: 0px 0px 0px black;
+
+            aside{
+                position: relative;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h2{
+                    color: black;
+                    font-size: 3.5rem;
+                font-family: "New Amsterdam", sans-serif;
+                border-bottom: 10px double burlywood;
+                }
+                p{
+                color: black;
+                font-size: 1rem;
+                width: 80%;
+                }
+                img{
+                    height: 100%;
+                    width: 100%;
+                    // border-radius: 30px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+                // border: 1px solid black;
+                // border-radius: 30px;
+            }
+            h1{
+                font-family: "New Amsterdam", sans-serif;
+                font-size: 10rem;
+                color: white;
+                margin-bottom: 0;
+            }
+            p{
+                color: white;
+                font-family: "New Amsterdam", sans-serif;
+                margin: 0;
+                margin: 5px;
+                font-size: 2rem;
+            }
+
+            div{
+                position: absolute;
+                bottom: 0px;
+                right: 50px;
+                button{
+                    padding: 10px;
+                    border: 5px solid burlywood;
+                    background-color: white;
+                    color: burlywood;
+                    font-size: 1.5rem;
+                    font-family: "New Amsterdam", sans-serif;
+                    &:hover{
+                        background-color: burlywood;
+                        color: white;
+                        border: 5px solid white;
+                    }
+                }
+            }
+        }
+        }
+    }
+
+    .FacilityFrame{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: burlywood;
+        scroll-snap-align: start; 
+        // border: 2px solid green;
+        .Facilities{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+            h1{
+                font-family: "New Amsterdam", sans-serif;
+                font-size: 10rem;
+                color: white;
+                margin-bottom: 0;
+            }
+            p{
+                color: white;
+                font-family: "New Amsterdam", sans-serif;
+                margin: 0;
+                margin: 5px;
+                font-size: 2rem;
+            }
+            p:nth-of-type(2){
+                color: white;
+                font-family: "New Amsterdam", sans-serif;
+                margin: 0;
+                margin: 5px;
+                font-size: 1.2rem;
+                width: 50%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+    .ContactFrame{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: burlywood;
+        scroll-snap-align: start; 
+        // border: 2px solid green;
+        .Contact{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+            h1{
+                font-family: "New Amsterdam", sans-serif;
+                font-size: 10rem;
+                color: white;
+                margin-bottom: 0;
+            }
+            p{
+                color: white;
+                font-family: "New Amsterdam", sans-serif;
+                margin: 0;
+                margin: 5px;
+                font-size: 1.2rem;
+            }
+
+            ul{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                gap: 1.5rem;
+                padding: 0;
+                margin: 0;
+                list-style: none;
+
+
+                li{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 2rem;
+                    color: white;
+                    border: 0;
+                    padding: 10px;
+                    &:hover{
+                        background-color: white;
+                        color: black;
+                        clip-path: circle();
+                        border: 0;
+                    }
+                }
+            }
+
+            ul:nth-of-type(2){
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .ReservationFrame{
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        // justify-content: center;
+        align-items: center;
+        background-color: #deb887;
+        scroll-snap-align: start; 
+        // border: 5px solid green;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+
+
+        .ReserveFrame{
+            width: 100vw;
+            height: 100%;
+            min-width: 100vw;
+            // border: 10px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+
+        .Reservation{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            width: 80%;
+            height: 75%;
+            // min-width: fit-content;
+            // gap: 20px;
+            background-color: white;
+            // scroll-snap-align: start;
+            // border: 10px solid blue;
+
+
+        // box-shadow: 0px 0px 0px black;
+
+            aside{
+                position: relative;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h2{
+                    color: black;
+                    font-size:5rem;
+                font-family: "New Amsterdam", sans-serif;
+                border-bottom: 10px double burlywood;
+                margin-bottom: 20px;
+                margin-top: 0;
+                }
+                p{
+                color: black;
+                font-size: 1rem;
+                width: 80%;
+                }
+                img{
+                    height: 100%;
+                    width: 100%;
+                    // border-radius: 30px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+                // border: 1px solid black;
+                // border-radius: 30px;
+            
+            h1{
+                font-family: "New Amsterdam", sans-serif;
+                font-size: 10rem;
+                color: white;
+                margin-bottom: 0;
+            }
+            p{
+                color: black;
+                font-family: "New Amsterdam", sans-serif;
+                margin: 0;
+                margin: 5px;
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            ul{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                gap: 10px;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                // border: 1px solid black;
+
+                li{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    // row-gap: 5px;
+                    p{
+                        // border: 1px solid black;
+                        margin: 0;
+                        padding: 0;
+                        text-wrap: nowrap;
+                        font-family: "New Amsterdam", sans-serif;
+                    }
+                    p:first-of-type{
+                        font-weight: bold;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    p:nth-of-type(2){
+                        background-color: burlywood;
+                        color: white;
+                        width: fit-content;
+                        padding: 10px;
+                    }
+                }
+
+                .reserve{
+                    background-color: burlywood;
+                    width: fit-content;
+                    padding: 10px;
+                    p{
+                        color: white;
+                    }
+                }
+            }
+        }
+
+            div{
+                position: absolute;
+                bottom: 0px;
+                right: 50px;
+                button{
+                    padding: 10px;
+                    border: 5px solid burlywood;
+                    background-color: white;
+                    color: burlywood;
+                    font-size: 1.5rem;
+                    font-family: "New Amsterdam", sans-serif;
+                    &:hover{
+                        background-color: burlywood;
+                        color: white;
+                        border: 5px solid white;
+                    }
+                }
+            }
+        }
+        }
+    }
+    .DiningFrame{
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        // justify-content: center;
+        align-items: center;
+        // background-color: #deb887;
+        scroll-snap-align: start; 
+        // border: 5px solid green;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+
+
+        .DineFrame{
+            width: 100vw;
+            height: 100%;
+            min-width: 100vw;
+            // border: 10px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+
+        .Dining{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            width: 80%;
+            height: 75%;
+            // min-width: fit-content;
+            // gap: 20px;
+            background-color: white;
+            // scroll-snap-align: start;
+            // border: 10px solid blue;
+
+
+        // box-shadow: 0px 0px 0px black;
+
+            aside{
+                position: relative;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h2{
+                    color: black;
+                    font-size:5rem;
+                font-family: "New Amsterdam", sans-serif;
+                border-bottom: 10px double burlywood;
+                margin-bottom: 20px;
+                margin-top: 0;
+                }
+                p{
+                color: black;
+                font-size: 1rem;
+                width: 80%;
+                }
+                img{
+                    height: 100%;
+                    width: 100%;
+                    // border-radius: 30px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+                // border: 1px solid black;
+                // border-radius: 30px;
+            
+            h1{
+                font-family: "New Amsterdam", sans-serif;
+                font-size: 10rem;
+                color: white;
+                margin-bottom: 0;
+            }
+            p{
+                color: black;
+                font-family: "New Amsterdam", sans-serif;
+                margin: 0;
+                margin: 5px;
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            ul{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                gap: 10px;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                // border: 1px solid black;
+
+                li{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    // row-gap: 5px;
+                    p{
+                        // border: 1px solid black;
+                        margin: 0;
+                        padding: 0;
+                        text-wrap: nowrap;
+                        font-family: "New Amsterdam", sans-serif;
+                    }
+                    p:first-of-type{
+                        font-weight: bold;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    p:nth-of-type(2){
+                        background-color: burlywood;
+                        color: white;
+                        width: fit-content;
+                        padding: 10px;
+                    }
+                }
+
+                .reserve{
+                    background-color: burlywood;
+                    width: fit-content;
+                    padding: 10px;
+                    p{
+                        color: white;
+                    }
+                }
+            }
+        }
+
+            div{
+                position: absolute;
+                bottom: 0px;
+                right: 50px;
+                button{
+                    padding: 10px;
+                    border: 5px solid burlywood;
+                    background-color: white;
+                    color: burlywood;
+                    font-size: 1.5rem;
+                    font-family: "New Amsterdam", sans-serif;
+                    &:hover{
+                        background-color: burlywood;
+                        color: white;
+                        border: 5px solid white;
+                    }
+                }
+            }
+        }
+        }
+    }
+    .AmenitiesFrame{
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        // justify-content: center;
+        align-items: center;
+        background-color: #deb887;
+        scroll-snap-align: start; 
+        // border: 5px solid green;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+
+
+        .AmenityFrame{
+            width: 100vw;
+            height: 100%;
+            min-width: 100vw;
+            // border: 10px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+
+        .Amenity{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            width: 80%;
+            height: 75%;
+            // min-width: fit-content;
+            // gap: 20px;
+            background-color: white;
+            // scroll-snap-align: start;
+            // border: 10px solid blue;
+
+
+        // box-shadow: 0px 0px 0px black;
+
+            aside{
+                position: relative;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h2{
+                    color: black;
+                    font-size:5rem;
+                font-family: "New Amsterdam", sans-serif;
+                border-bottom: 10px double burlywood;
+                margin-bottom: 20px;
+                margin-top: 0;
+                }
+                p{
+                color: black;
+                font-size: 1rem;
+                width: 80%;
+                }
+                img{
+                    height: 100%;
+                    width: 100%;
+                    // border-radius: 30px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+                // border: 1px solid black;
+                // border-radius: 30px;
+            
+            h1{
+                font-family: "New Amsterdam", sans-serif;
+                font-size: 10rem;
+                color: white;
+                margin-bottom: 0;
+            }
+            p{
+                color: black;
+                font-family: "New Amsterdam", sans-serif;
+                margin: 0;
+                margin: 5px;
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            ul{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                gap: 10px;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                // border: 1px solid black;
+
+                li{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    // row-gap: 5px;
+                    p{
+                        // border: 1px solid black;
+                        margin: 0;
+                        padding: 0;
+                        text-wrap: nowrap;
+                        font-family: "New Amsterdam", sans-serif;
+                    }
+                    p:first-of-type{
+                        font-weight: bold;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    p:nth-of-type(2){
+                        background-color: burlywood;
+                        color: white;
+                        width: fit-content;
+                        padding: 10px;
+                    }
+                }
+
+                .reserve{
+                    background-color: burlywood;
+                    width: fit-content;
+                    padding: 10px;
+                    p{
+                        color: white;
+                    }
+                }
+            }
+        }
+
+            div{
+                position: absolute;
+                bottom: 0px;
+                right: 50px;
+                button{
+                    padding: 10px;
+                    border: 5px solid burlywood;
+                    background-color: white;
+                    color: burlywood;
+                    font-size: 1.5rem;
+                    font-family: "New Amsterdam", sans-serif;
+                    &:hover{
+                        background-color: burlywood;
+                        color: white;
+                        border: 5px solid white;
+                    }
+                }
+            }
+        }
+        }
+    }
+
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media screen and (max-width:600px) {
+    body{
+        padding: 0;
+        margin: 0;
+        // overflow-x: hidden;
+        .new-amsterdam-regular {
+            font-family: "New Amsterdam", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+          h1{
+            font-family: "New Amsterdam", sans-serif;
+          }
+    }
+    
+    main{
+        height: fit-content;
+        width: fit-content;
+        min-width: 100vw;
+        // border: 4px solid red;
+        margin: 0;
+        overflow-y: scroll;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.nerdwallet.com/assets/blog/wp-content/uploads/2020/10/GettyImages-104731717-2400x1440.jpg);
+        background-size: cover;
+        background-position: center right;
+        scroll-snap-type: y mandatory;  
+        scroll-behavior: smooth;
+    
+    
+        header{
+            // border: 1px solid black;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1;
+            width: 100%;
+    
+            nav{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                // border: 2px solid red;
+                // width: fit-content;
+                background-color: burlywood;
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    // border: 1px solid black;
+                    li{
+                    font-family: "New Amsterdam", sans-serif;
+                    color: white;
+                        a{
+                            font-family: "New Amsterdam", sans-serif;
+                            color: white;
+                            text-decoration: none;
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .BannerFrame{
+            height: 40vh;
+            // min-width: 355px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start; 
+            // border: 2px solid green;
+            .Banner{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h1{
+                    font-family: "New Amsterdam", sans-serif;
+                    font-size: 4rem;
+                    color: white;
+                    margin-bottom: 0;
+                }
+                p{
+                    color: white;
+                    font-family: "New Amsterdam", sans-serif;
+                    margin: 0;
+                    margin: 5px;
+                    font-size: 1rem;
+                }
+            }
+        }
+    
+        .AboutFrame{
+            height: 30vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #deb887;
+            scroll-snap-align: start; 
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+    
+    
+            .CardFrame{
+                width: 30vw;
+                height: 100%;
+                min-width: fit-content;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                scroll-snap-align: start;
+    
+            .About{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                width: 80%;
+                height: 80%;
+                // min-width: fit-content;
+                // gap: 20px;
+                background-color: white;
+                // scroll-snap-align: start;
+                // border: 10px solid blue;
+    
+    
+            // box-shadow: 0px 0px 0px black;
+    
+                aside{
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    h2{
+                        color: black;
+                        font-size: 0.5rem;
+                    font-family: "New Amsterdam", sans-serif;
+                    border-bottom: 5px double burlywood;
+                    }
+                    p{
+                    color: black;
+                    font-size: 0.4rem;
+                    width: 80%;
+                    margin-top:0px;
+                    text-align: justify;
+                    padding: 0;
+                    // border: 1px solid black;
+                    }
+                    p:nth-of-type(2){
+                        margin-top:-20px;
+                    }
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        // border-radius: 30px;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                    // border: 1px solid black;
+                    // border-radius: 30px;
+                }
+    
+                div{
+                    position: absolute;
+                    bottom: -10px;
+                    right: 10px;
+                    button{
+                        padding: 3px;
+                        border: 4px solid burlywood;
+                        background-color: white;
+                        color: burlywood;
+                        font-size: 0.4rem;
+                        font-family: "New Amsterdam", sans-serif;
+                        &:hover{
+                            background-color: burlywood;
+                            color: white;
+                            border: 4px solid white;
+                        }
+                    }
+                }
+            }
+            }
+        }
+        .PackageFrame{
+            height: 30vh;
+            display: flex;
+            flex-direction: row;
+            // justify-content: center;
+            align-items: center;
+            background-color: #deb887;
+            scroll-snap-align: start; 
+            // border: 5px solid green;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+    
+    
+            .CardFrame{
+                width: 30vw;
+                height: 100%;
+                min-width: fit-content;
+                // border: 10px solid red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                scroll-snap-align: start;
+    
+            .Package{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                width: 80%;
+                height: 80%;
+                // min-width: fit-content;
+                // gap: 20px;
+                background-color: white;
+                // scroll-snap-align: start;
+                // border: 10px solid blue;
+    
+                aside{
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    h2{
+                        color: black;
+                        font-size: 0.5rem;
+                    font-family: "New Amsterdam", sans-serif;
+                    border-bottom: 5px double burlywood;
+                    }
+                    p{
+                    color: black;
+                    font-size: 0.4rem;
+                    width: 80%;
+                    margin-top:0px;
+                    text-align: justify;
+                    padding: 0;
+                    // border: 1px solid black;
+                    }
+                    p:nth-of-type(2){
+                        margin-top:-20px;
+                    }
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        // border-radius: 30px;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                    // border: 1px solid black;
+                    // border-radius: 30px;
+                }
+    
+                div{
+                    position: absolute;
+                    bottom: -10px;
+                    right: 10px;
+                    button{
+                        padding: 3px;
+                        border: 4px solid burlywood;
+                        background-color: white;
+                        color: burlywood;
+                        font-size: 0.4rem;
+                        font-family: "New Amsterdam", sans-serif;
+                        &:hover{
+                            background-color: burlywood;
+                            color: white;
+                            border: 4px solid white;
+                        }
+                    }
+                }
+            }
+            }
+        }
+    
+        .FacilityFrame{
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: burlywood;
+            scroll-snap-align: start; 
+            // border: 2px solid green;
+            .Facilities{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 100%;
+                
+                h1{
+                    font-family: "New Amsterdam", sans-serif;
+                    font-size: 4rem;
+                    color: white;
+                    margin-bottom: 0;
+                    margin: 0;
+                }
+                p{
+                    color: white;
+                    font-family: "New Amsterdam", sans-serif;
+                    margin: 0;
+                    margin: 5px;
+                    font-size: 1rem;
+                }
+                p:nth-of-type(2){
+                    color: white;
+                    font-family: "New Amsterdam", sans-serif;
+                    margin: 0;
+                    margin: 5px;
+                    font-size: 0.5rem;
+                    width: 50%;
+                    text-align: center;
+                    display: none;
+                }
+            }
+        }
+    }
+    
+    
+        .ContactFrame{
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: burlywood;
+            scroll-snap-align: start; 
+            // border: 2px solid green;
+            .Contact{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                flex-direction: column;
+                height: 100%;
+                h1{
+                    font-family: "New Amsterdam", sans-serif;
+                    font-size: 4rem;
+                    color: white;
+                    margin-bottom: 0;
+                }
+                p{
+                    color: white;
+                    font-family: "New Amsterdam", sans-serif;
+                    margin: 0;
+                    margin: 5px;
+                    font-size: 0.5rem;
+                }
+    
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+                    gap: 1.5rem;
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+    
+    
+                    li{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 1.5rem;
+                        color: white;
+                        border: 0;
+                        padding: 10px;
+                        &:hover{
+                            background-color: white;
+                            color: black;
+                            clip-path: circle();
+                            border: 0;
+                        }
+                    }
+                }
+    
+                ul:nth-of-type(2){
+                    margin-top: 20px;
+                }
+            }
+        }
+    
+        .ReservationFrame{
+            height: 40vh;
+            display: flex;
+            flex-direction: row;
+            // justify-content: center;
+            align-items: center;
+            background-color: #deb887;
+            scroll-snap-align: start; 
+            // border: 5px solid green;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+    
+    
+            .ReserveFrame{
+                width: 10vw;
+                height: 100%;
+                min-width: fit-content;
+                // border: 10px solid red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                scroll-snap-align: start;
+
+    
+            .Reservation{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                width: 80%;
+                height: 50%;
+                // min-width: fit-content;
+                // gap: 20px;
+                background-color: white;
+                // scroll-snap-align: start;
+                // border: 10px solid blue;
+    
+                aside{
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    h2{
+                        font-family: "New Amsterdam", sans-serif;
+                        font-size: 1rem;
+                        color: black;
+                        margin-bottom: 0;
+                        margin: 0;
+                        border-bottom: 2px double #deb887;
+                    }
+                    p{
+                        color: white;
+                        font-family: "New Amsterdam", sans-serif;
+                        margin: 0;
+                        margin: 5px;
+                        font-size: 1.5rem;
+                    }
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                
+                h1{
+                    font-family: "New Amsterdam", sans-serif;
+                    font-size: 1rem;
+                    color: white;
+                    margin-bottom: 0;
+                }
+                p{
+                    color: black;
+                    font-family: "New Amsterdam", sans-serif;
+                    margin: 0;
+                    margin-top: 2px;
+                    font-size: 0.2rem;
+                    text-align: center;
+                    margin-bottom: 0;
+                    // border: 1px solid black;
+                    // margin: 0;
+                }
+    
+                ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 4px;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    // border: 1px solid black;
+    
+                    li{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        // row-gap: 5px;
+                        p{
+                            // border: 1px solid black;
+                            margin: 0;
+                            padding: 0;
+                            text-wrap: nowrap;
+                            font-family: "New Amsterdam", sans-serif;
+                        }
+                        p:first-of-type{
+                            font-weight: bold;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 0.2rem;
+                        }
+                        p:nth-of-type(2){
+                            background-color: burlywood;
+                            color: white;
+                            width: fit-content;
+                            padding: 3px;
+                        }
+                    }
+    
+                    .reserve{
+                        background-color: burlywood;
+                        width: fit-content;
+                        padding: 3px;
+                        margin: 0;
+                        p{
+                            color: white;
+                        }
+                    }
+                }
+            }
+    
+                div{
+                    position: absolute;
+                    bottom: 0px;
+                    right: 50px;
+                    button{
+                        padding: 10px;
+                        border: 5px solid burlywood;
+                        background-color: white;
+                        color: burlywood;
+                        font-size: 1.5rem;
+                        font-family: "New Amsterdam", sans-serif;
+                        &:hover{
+                            background-color: burlywood;
+                            color: white;
+                            border: 5px solid white;
+                        }
+                    }
+                }
+            }
+            }
+        }
+        .DiningFrame{
+            height: 40vh;
+            display: flex;
+            flex-direction: row;
+            // justify-content: center;
+            align-items: center;
+            // background-color: #deb887;
+            scroll-snap-align: start; 
+            // border: 5px solid green;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+    
+    
+            .DineFrame{
+                width: 10vw;
+                height: 100%;
+                min-width: fit-content;
+                // border: 10px solid red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                scroll-snap-align: start;
+    
+            .Dining{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                width: 80%;
+                height: 50%;
+                // min-width: fit-content;
+                // gap: 20px;
+                background-color: white;
+    
+    
+            // box-shadow: 0px 0px 0px black;
+    
+                aside{
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    h2{
+                        font-family: "New Amsterdam", sans-serif;
+                        font-size: 1rem;
+                        color: black;
+                        margin-bottom: 0;
+                        margin: 0;
+                        border-bottom: 2px double #deb887;
+                    }
+                    p{
+                        color: white;
+                        font-family: "New Amsterdam", sans-serif;
+                        margin: 0;
+                        margin: 5px;
+                        font-size: 1.5rem;
+                    }
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        // border-radius: 30px;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                    // border: 1px solid black;
+                    // border-radius: 30px;
+                
+                    h1{
+                        font-family: "New Amsterdam", sans-serif;
+                        font-size: 1rem;
+                        color: white;
+                        margin-bottom: 0;
+                    }
+                    p{
+                        color: black;
+                        font-family: "New Amsterdam", sans-serif;
+                        margin: 0;
+                        margin-top: 2px;
+                        font-size: 0.2rem;
+                        text-align: center;
+                        margin-bottom: 0;
+                        // border: 1px solid black;
+                        // margin: 0;
+                    }
+    
+                ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    // border: 1px solid black;
+    
+                    li{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        // row-gap: 5px;
+                        p{
+                            // border: 1px solid black;
+                            margin: 0;
+                            padding: 0;
+                            text-wrap: nowrap;
+                            font-family: "New Amsterdam", sans-serif;
+                        }
+                        p:first-of-type{
+                            font-weight: bold;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        p:nth-of-type(2){
+                            background-color: burlywood;
+                            color: white;
+                            width: fit-content;
+                            padding: 10px;
+                        }
+                    }
+    
+                    .reserve{
+                        background-color: burlywood;
+                        width: fit-content;
+                        padding: 3px;
+                        p{
+                            color: white;
+                        }
+                    }
+                }
+            }
+    
+                div{
+                    position: absolute;
+                    bottom: 0px;
+                    right: 50px;
+                    button{
+                        padding: 10px;
+                        border: 5px solid burlywood;
+                        background-color: white;
+                        color: burlywood;
+                        font-size: 1.5rem;
+                        font-family: "New Amsterdam", sans-serif;
+                        &:hover{
+                            background-color: burlywood;
+                            color: white;
+                            border: 5px solid white;
+                        }
+                    }
+                }
+            }
+            }
+        }
+        .AmenitiesFrame{
+            height: 40vh;
+            display: flex;
+            flex-direction: row;
+            // justify-content: center;
+            align-items: center;
+            // background-color: #deb887;
+            scroll-snap-align: start; 
+            // border: 5px solid green;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+    
+    
+            .AmenityFrame{
+                width: 10vw;
+                height: 100%;
+                min-width: fit-content;
+                // border: 10px solid red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                scroll-snap-align: start;
+    
+            .Amenity{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                width: 80%;
+                height: 50%;
+                // min-width: fit-content;
+                // gap: 20px;
+                background-color: white;
+    
+                aside{
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    h2{
+                        font-family: "New Amsterdam", sans-serif;
+                        font-size: 1rem;
+                        color: black;
+                        margin-bottom: 0;
+                        margin: 0;
+                        border-bottom: 2px double #deb887;
+                    }
+                    p{
+                        color: white;
+                        font-family: "New Amsterdam", sans-serif;
+                        margin: 0;
+                        margin: 5px;
+                        font-size: 1.5rem;
+                    }
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        // border-radius: 30px;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                    // border: 1px solid black;
+                    // border-radius: 30px;
+                
+                    h1{
+                        font-family: "New Amsterdam", sans-serif;
+                        font-size: 1rem;
+                        color: white;
+                        margin-bottom: 0;
+                    }
+                    p{
+                        color: black;
+                        font-family: "New Amsterdam", sans-serif;
+                        margin: 0;
+                        margin-top: 2px;
+                        font-size: 0.2rem;
+                        text-align: center;
+                        margin-bottom: 0;
+                        // border: 1px solid black;
+                        // margin: 0;
+                    }
+    
+                ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    // border: 1px solid black;
+    
+                    li{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        // row-gap: 5px;
+                        p{
+                            // border: 1px solid black;
+                            margin: 0;
+                            padding: 0;
+                            text-wrap: nowrap;
+                            font-family: "New Amsterdam", sans-serif;
+                        }
+                        p:first-of-type{
+                            font-weight: bold;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        p:nth-of-type(2){
+                            background-color: burlywood;
+                            color: white;
+                            width: fit-content;
+                            padding: 10px;
+                        }
+                    }
+    
+                    .reserve{
+                        background-color: burlywood;
+                        width: fit-content;
+                        padding: 10px;
+                        p{
+                            color: white;
+                        }
+                    }
+                }
+            }
+    
+                div{
+                    position: absolute;
+                    bottom: 0px;
+                    right: 50px;
+                    button{
+                        padding: 10px;
+                        border: 5px solid burlywood;
+                        background-color: white;
+                        color: burlywood;
+                        font-size: 1.5rem;
+                        font-family: "New Amsterdam", sans-serif;
+                        &:hover{
+                            background-color: burlywood;
+                            color: white;
+                            border: 5px solid white;
+                        }
+                    }
+                }
+            }
+            }
+        }
+}

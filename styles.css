@@ -1,0 +1,1542 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+body .new-amsterdam-regular {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body h1 {
+  font-family: "New Amsterdam", sans-serif;
+}
+
+main {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.nerdwallet.com/assets/blog/wp-content/uploads/2020/10/GettyImages-104731717-2400x1440.jpg);
+  background-size: cover;
+  background-position: top;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+main header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+main header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: burlywood;
+}
+main header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+main header nav ul li {
+  font-family: "New Amsterdam", sans-serif;
+  color: white;
+}
+main header nav ul li a {
+  font-family: "New Amsterdam", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+main .BannerFrame {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  scroll-snap-align: start;
+}
+main .BannerFrame .Banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .BannerFrame .Banner h1 {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 10rem;
+  color: white;
+  margin-bottom: 0;
+}
+main .BannerFrame .Banner p {
+  color: white;
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0;
+  margin: 5px;
+  font-size: 2rem;
+}
+main .AboutFrame {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #deb887;
+  scroll-snap-align: start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+main .AboutFrame .CardFrame {
+  width: 100vw;
+  height: 100%;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+main .AboutFrame .CardFrame .About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: 75%;
+  background-color: white;
+}
+main .AboutFrame .CardFrame .About aside {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .AboutFrame .CardFrame .About aside h2 {
+  color: black;
+  font-size: 3rem;
+  font-family: "New Amsterdam", sans-serif;
+  border-bottom: 10px double burlywood;
+}
+main .AboutFrame .CardFrame .About aside p {
+  color: black;
+  font-size: 1rem;
+  width: 80%;
+}
+main .AboutFrame .CardFrame .About aside img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main .AboutFrame .CardFrame .About h1 {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 10rem;
+  color: white;
+  margin-bottom: 0;
+}
+main .AboutFrame .CardFrame .About p {
+  color: white;
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0;
+  margin: 5px;
+  font-size: 2rem;
+}
+main .AboutFrame .CardFrame .About div {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+}
+main .AboutFrame .CardFrame .About div button {
+  padding: 10px;
+  border: 5px solid burlywood;
+  background-color: white;
+  color: burlywood;
+  font-size: 1.5rem;
+  font-family: "New Amsterdam", sans-serif;
+}
+main .AboutFrame .CardFrame .About div button:hover {
+  background-color: burlywood;
+  color: white;
+  border: 5px solid white;
+}
+main .PackageFrame {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #deb887;
+  scroll-snap-align: start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+main .PackageFrame .CardFrame {
+  width: 100vw;
+  height: 100%;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+main .PackageFrame .CardFrame .Package {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: 75%;
+  background-color: white;
+}
+main .PackageFrame .CardFrame .Package aside {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .PackageFrame .CardFrame .Package aside h2 {
+  color: black;
+  font-size: 3.5rem;
+  font-family: "New Amsterdam", sans-serif;
+  border-bottom: 10px double burlywood;
+}
+main .PackageFrame .CardFrame .Package aside p {
+  color: black;
+  font-size: 1rem;
+  width: 80%;
+}
+main .PackageFrame .CardFrame .Package aside img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main .PackageFrame .CardFrame .Package h1 {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 10rem;
+  color: white;
+  margin-bottom: 0;
+}
+main .PackageFrame .CardFrame .Package p {
+  color: white;
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0;
+  margin: 5px;
+  font-size: 2rem;
+}
+main .PackageFrame .CardFrame .Package div {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+}
+main .PackageFrame .CardFrame .Package div button {
+  padding: 10px;
+  border: 5px solid burlywood;
+  background-color: white;
+  color: burlywood;
+  font-size: 1.5rem;
+  font-family: "New Amsterdam", sans-serif;
+}
+main .PackageFrame .CardFrame .Package div button:hover {
+  background-color: burlywood;
+  color: white;
+  border: 5px solid white;
+}
+main .FacilityFrame {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  scroll-snap-align: start;
+}
+main .FacilityFrame .Facilities {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+main .FacilityFrame .Facilities h1 {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 10rem;
+  color: white;
+  margin-bottom: 0;
+}
+main .FacilityFrame .Facilities p {
+  color: white;
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0;
+  margin: 5px;
+  font-size: 2rem;
+}
+main .FacilityFrame .Facilities p:nth-of-type(2) {
+  color: white;
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0;
+  margin: 5px;
+  font-size: 1.2rem;
+  width: 50%;
+  text-align: center;
+}
+
+.ContactFrame {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  scroll-snap-align: start;
+}
+.ContactFrame .Contact {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.ContactFrame .Contact h1 {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 10rem;
+  color: white;
+  margin-bottom: 0;
+}
+.ContactFrame .Contact p {
+  color: white;
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0;
+  margin: 5px;
+  font-size: 1.2rem;
+}
+.ContactFrame .Contact ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.ContactFrame .Contact ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  border: 0;
+  padding: 10px;
+}
+.ContactFrame .Contact ul li:hover {
+  background-color: white;
+  color: black;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  border: 0;
+}
+.ContactFrame .Contact ul:nth-of-type(2) {
+  margin-top: 20px;
+}
+
+.ReservationFrame {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #deb887;
+  scroll-snap-align: start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.ReservationFrame .ReserveFrame {
+  width: 100vw;
+  height: 100%;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.ReservationFrame .ReserveFrame .Reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: 75%;
+  background-color: white;
+}
+.ReservationFrame .ReserveFrame .Reservation aside {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ReservationFrame .ReserveFrame .Reservation aside h2 {
+  color: black;
+  font-size: 5rem;
+  font-family: "New Amsterdam", sans-serif;
+  border-bottom: 10px double burlywood;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.ReservationFrame .ReserveFrame .Reservation aside p {
+  color: black;
+  font-size: 1rem;
+  width: 80%;
+}
+.ReservationFrame .ReserveFrame .Reservation aside img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.ReservationFrame .ReserveFrame .Reservation aside h1 {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 10rem;
+  color: white;
+  margin-bottom: 0;
+}
+.ReservationFrame .ReserveFrame .Reservation aside p {
+  color: black;
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0;
+  margin: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.ReservationFrame .ReserveFrame .Reservation aside ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ReservationFrame .ReserveFrame .Reservation aside ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ReservationFrame .ReserveFrame .Reservation aside ul li p {
+  margin: 0;
+  padding: 0;
+  text-wrap: nowrap;
+  font-family: "New Amsterdam", sans-serif;
+}
+.ReservationFrame .ReserveFrame .Reservation aside ul li p:first-of-type {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ReservationFrame .ReserveFrame .Reservation aside ul li p:nth-of-type(2) {
+  background-color: burlywood;
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+.ReservationFrame .ReserveFrame .Reservation aside ul .reserve {
+  background-color: burlywood;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+.ReservationFrame .ReserveFrame .Reservation aside ul .reserve p {
+  color: white;
+}
+.ReservationFrame .ReserveFrame .Reservation div {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+}
+.ReservationFrame .ReserveFrame .Reservation div button {
+  padding: 10px;
+  border: 5px solid burlywood;
+  background-color: white;
+  color: burlywood;
+  font-size: 1.5rem;
+  font-family: "New Amsterdam", sans-serif;
+}
+.ReservationFrame .ReserveFrame .Reservation div button:hover {
+  background-color: burlywood;
+  color: white;
+  border: 5px solid white;
+}
+
+.DiningFrame {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  scroll-snap-align: start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.DiningFrame .DineFrame {
+  width: 100vw;
+  height: 100%;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.DiningFrame .DineFrame .Dining {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: 75%;
+  background-color: white;
+}
+.DiningFrame .DineFrame .Dining aside {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.DiningFrame .DineFrame .Dining aside h2 {
+  color: black;
+  font-size: 5rem;
+  font-family: "New Amsterdam", sans-serif;
+  border-bottom: 10px double burlywood;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.DiningFrame .DineFrame .Dining aside p {
+  color: black;
+  font-size: 1rem;
+  width: 80%;
+}
+.DiningFrame .DineFrame .Dining aside img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.DiningFrame .DineFrame .Dining aside h1 {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 10rem;
+  color: white;
+  margin-bottom: 0;
+}
+.DiningFrame .DineFrame .Dining aside p {
+  color: black;
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0;
+  margin: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.DiningFrame .DineFrame .Dining aside ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.DiningFrame .DineFrame .Dining aside ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DiningFrame .DineFrame .Dining aside ul li p {
+  margin: 0;
+  padding: 0;
+  text-wrap: nowrap;
+  font-family: "New Amsterdam", sans-serif;
+}
+.DiningFrame .DineFrame .Dining aside ul li p:first-of-type {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DiningFrame .DineFrame .Dining aside ul li p:nth-of-type(2) {
+  background-color: burlywood;
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+.DiningFrame .DineFrame .Dining aside ul .reserve {
+  background-color: burlywood;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+.DiningFrame .DineFrame .Dining aside ul .reserve p {
+  color: white;
+}
+.DiningFrame .DineFrame .Dining div {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+}
+.DiningFrame .DineFrame .Dining div button {
+  padding: 10px;
+  border: 5px solid burlywood;
+  background-color: white;
+  color: burlywood;
+  font-size: 1.5rem;
+  font-family: "New Amsterdam", sans-serif;
+}
+.DiningFrame .DineFrame .Dining div button:hover {
+  background-color: burlywood;
+  color: white;
+  border: 5px solid white;
+}
+
+.AmenitiesFrame {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #deb887;
+  scroll-snap-align: start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.AmenitiesFrame .AmenityFrame {
+  width: 100vw;
+  height: 100%;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.AmenitiesFrame .AmenityFrame .Amenity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: 75%;
+  background-color: white;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside h2 {
+  color: black;
+  font-size: 5rem;
+  font-family: "New Amsterdam", sans-serif;
+  border-bottom: 10px double burlywood;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside p {
+  color: black;
+  font-size: 1rem;
+  width: 80%;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside h1 {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 10rem;
+  color: white;
+  margin-bottom: 0;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside p {
+  color: black;
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0;
+  margin: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside ul li p {
+  margin: 0;
+  padding: 0;
+  text-wrap: nowrap;
+  font-family: "New Amsterdam", sans-serif;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside ul li p:first-of-type {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside ul li p:nth-of-type(2) {
+  background-color: burlywood;
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside ul .reserve {
+  background-color: burlywood;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+.AmenitiesFrame .AmenityFrame .Amenity aside ul .reserve p {
+  color: white;
+}
+.AmenitiesFrame .AmenityFrame .Amenity div {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+}
+.AmenitiesFrame .AmenityFrame .Amenity div button {
+  padding: 10px;
+  border: 5px solid burlywood;
+  background-color: white;
+  color: burlywood;
+  font-size: 1.5rem;
+  font-family: "New Amsterdam", sans-serif;
+}
+.AmenitiesFrame .AmenityFrame .Amenity div button:hover {
+  background-color: burlywood;
+  color: white;
+  border: 5px solid white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  body .new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body h1 {
+    font-family: "New Amsterdam", sans-serif;
+  }
+  main {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 100vw;
+    margin: 0;
+    overflow-y: scroll;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.nerdwallet.com/assets/blog/wp-content/uploads/2020/10/GettyImages-104731717-2400x1440.jpg);
+    background-size: cover;
+    background-position: center right;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
+  main header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+  }
+  main header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: burlywood;
+  }
+  main header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  main header nav ul li {
+    font-family: "New Amsterdam", sans-serif;
+    color: white;
+  }
+  main header nav ul li a {
+    font-family: "New Amsterdam", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  main .BannerFrame {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+  main .BannerFrame .Banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .BannerFrame .Banner h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0;
+  }
+  main .BannerFrame .Banner p {
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    margin: 5px;
+    font-size: 1rem;
+  }
+  main .AboutFrame {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #deb887;
+    scroll-snap-align: start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  main .AboutFrame .CardFrame {
+    width: 30vw;
+    height: 100%;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+  main .AboutFrame .CardFrame .About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+  }
+  main .AboutFrame .CardFrame .About aside {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .AboutFrame .CardFrame .About aside h2 {
+    color: black;
+    font-size: 0.5rem;
+    font-family: "New Amsterdam", sans-serif;
+    border-bottom: 5px double burlywood;
+  }
+  main .AboutFrame .CardFrame .About aside p {
+    color: black;
+    font-size: 0.4rem;
+    width: 80%;
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0;
+  }
+  main .AboutFrame .CardFrame .About aside p:nth-of-type(2) {
+    margin-top: -20px;
+  }
+  main .AboutFrame .CardFrame .About aside img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  main .AboutFrame .CardFrame .About div {
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+  }
+  main .AboutFrame .CardFrame .About div button {
+    padding: 3px;
+    border: 4px solid burlywood;
+    background-color: white;
+    color: burlywood;
+    font-size: 0.4rem;
+    font-family: "New Amsterdam", sans-serif;
+  }
+  main .AboutFrame .CardFrame .About div button:hover {
+    background-color: burlywood;
+    color: white;
+    border: 4px solid white;
+  }
+  main .PackageFrame {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #deb887;
+    scroll-snap-align: start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  main .PackageFrame .CardFrame {
+    width: 30vw;
+    height: 100%;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+  main .PackageFrame .CardFrame .Package {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+  }
+  main .PackageFrame .CardFrame .Package aside {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .PackageFrame .CardFrame .Package aside h2 {
+    color: black;
+    font-size: 0.5rem;
+    font-family: "New Amsterdam", sans-serif;
+    border-bottom: 5px double burlywood;
+  }
+  main .PackageFrame .CardFrame .Package aside p {
+    color: black;
+    font-size: 0.4rem;
+    width: 80%;
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0;
+  }
+  main .PackageFrame .CardFrame .Package aside p:nth-of-type(2) {
+    margin-top: -20px;
+  }
+  main .PackageFrame .CardFrame .Package aside img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  main .PackageFrame .CardFrame .Package div {
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+  }
+  main .PackageFrame .CardFrame .Package div button {
+    padding: 3px;
+    border: 4px solid burlywood;
+    background-color: white;
+    color: burlywood;
+    font-size: 0.4rem;
+    font-family: "New Amsterdam", sans-serif;
+  }
+  main .PackageFrame .CardFrame .Package div button:hover {
+    background-color: burlywood;
+    color: white;
+    border: 4px solid white;
+  }
+  main .FacilityFrame {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    scroll-snap-align: start;
+  }
+  main .FacilityFrame .Facilities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  main .FacilityFrame .Facilities h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0;
+    margin: 0;
+  }
+  main .FacilityFrame .Facilities p {
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    margin: 5px;
+    font-size: 1rem;
+  }
+  main .FacilityFrame .Facilities p:nth-of-type(2) {
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    margin: 5px;
+    font-size: 0.5rem;
+    width: 50%;
+    text-align: center;
+    display: none;
+  }
+  .ContactFrame {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    scroll-snap-align: start;
+  }
+  .ContactFrame .Contact {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  .ContactFrame .Contact h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0;
+  }
+  .ContactFrame .Contact p {
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    margin: 5px;
+    font-size: 0.5rem;
+  }
+  .ContactFrame .Contact ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .ContactFrame .Contact ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    border: 0;
+    padding: 10px;
+  }
+  .ContactFrame .Contact ul li:hover {
+    background-color: white;
+    color: black;
+    -webkit-clip-path: circle();
+            clip-path: circle();
+    border: 0;
+  }
+  .ContactFrame .Contact ul:nth-of-type(2) {
+    margin-top: 20px;
+  }
+  .ReservationFrame {
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #deb887;
+    scroll-snap-align: start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  .ReservationFrame .ReserveFrame {
+    width: 10vw;
+    height: 100%;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+  .ReservationFrame .ReserveFrame .Reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 50%;
+    background-color: white;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside h2 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 0;
+    margin: 0;
+    border-bottom: 2px double #deb887;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside p {
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    margin: 5px;
+    font-size: 1.5rem;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside p {
+    color: black;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    margin-top: 2px;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside ul li p {
+    margin: 0;
+    padding: 0;
+    text-wrap: nowrap;
+    font-family: "New Amsterdam", sans-serif;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside ul li p:first-of-type {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.2rem;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside ul li p:nth-of-type(2) {
+    background-color: burlywood;
+    color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 3px;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside ul .reserve {
+    background-color: burlywood;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 3px;
+    margin: 0;
+  }
+  .ReservationFrame .ReserveFrame .Reservation aside ul .reserve p {
+    color: white;
+  }
+  .ReservationFrame .ReserveFrame .Reservation div {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+  }
+  .ReservationFrame .ReserveFrame .Reservation div button {
+    padding: 10px;
+    border: 5px solid burlywood;
+    background-color: white;
+    color: burlywood;
+    font-size: 1.5rem;
+    font-family: "New Amsterdam", sans-serif;
+  }
+  .ReservationFrame .ReserveFrame .Reservation div button:hover {
+    background-color: burlywood;
+    color: white;
+    border: 5px solid white;
+  }
+  .DiningFrame {
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    scroll-snap-align: start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  .DiningFrame .DineFrame {
+    width: 10vw;
+    height: 100%;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+  .DiningFrame .DineFrame .Dining {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 50%;
+    background-color: white;
+  }
+  .DiningFrame .DineFrame .Dining aside {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .DiningFrame .DineFrame .Dining aside h2 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 0;
+    margin: 0;
+    border-bottom: 2px double #deb887;
+  }
+  .DiningFrame .DineFrame .Dining aside p {
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    margin: 5px;
+    font-size: 1.5rem;
+  }
+  .DiningFrame .DineFrame .Dining aside img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .DiningFrame .DineFrame .Dining aside h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0;
+  }
+  .DiningFrame .DineFrame .Dining aside p {
+    color: black;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    margin-top: 2px;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .DiningFrame .DineFrame .Dining aside ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .DiningFrame .DineFrame .Dining aside ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .DiningFrame .DineFrame .Dining aside ul li p {
+    margin: 0;
+    padding: 0;
+    text-wrap: nowrap;
+    font-family: "New Amsterdam", sans-serif;
+  }
+  .DiningFrame .DineFrame .Dining aside ul li p:first-of-type {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DiningFrame .DineFrame .Dining aside ul li p:nth-of-type(2) {
+    background-color: burlywood;
+    color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 10px;
+  }
+  .DiningFrame .DineFrame .Dining aside ul .reserve {
+    background-color: burlywood;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 3px;
+  }
+  .DiningFrame .DineFrame .Dining aside ul .reserve p {
+    color: white;
+  }
+  .DiningFrame .DineFrame .Dining div {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+  }
+  .DiningFrame .DineFrame .Dining div button {
+    padding: 10px;
+    border: 5px solid burlywood;
+    background-color: white;
+    color: burlywood;
+    font-size: 1.5rem;
+    font-family: "New Amsterdam", sans-serif;
+  }
+  .DiningFrame .DineFrame .Dining div button:hover {
+    background-color: burlywood;
+    color: white;
+    border: 5px solid white;
+  }
+  .AmenitiesFrame {
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    scroll-snap-align: start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  .AmenitiesFrame .AmenityFrame {
+    width: 10vw;
+    height: 100%;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 50%;
+    background-color: white;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside h2 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 0;
+    margin: 0;
+    border-bottom: 2px double #deb887;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside p {
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    margin: 5px;
+    font-size: 1.5rem;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside p {
+    color: black;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    margin-top: 2px;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside ul li p {
+    margin: 0;
+    padding: 0;
+    text-wrap: nowrap;
+    font-family: "New Amsterdam", sans-serif;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside ul li p:first-of-type {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside ul li p:nth-of-type(2) {
+    background-color: burlywood;
+    color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 10px;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside ul .reserve {
+    background-color: burlywood;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 10px;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity aside ul .reserve p {
+    color: white;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity div {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity div button {
+    padding: 10px;
+    border: 5px solid burlywood;
+    background-color: white;
+    color: burlywood;
+    font-size: 1.5rem;
+    font-family: "New Amsterdam", sans-serif;
+  }
+  .AmenitiesFrame .AmenityFrame .Amenity div button:hover {
+    background-color: burlywood;
+    color: white;
+    border: 5px solid white;
+  }
+}/*# sourceMappingURL=styles.css.map */
